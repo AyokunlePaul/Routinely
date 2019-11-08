@@ -1,0 +1,76 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "131cc5a356723d68066e05eeb8865e6e",
+    "entities": [
+      {
+        "tableName": "RoutineLocalModel",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`routineId` TEXT NOT NULL, `timeCreated` INTEGER NOT NULL, `routineTitle` TEXT, `routineDescription` TEXT, `routineFrequency` INTEGER NOT NULL, `routineState` INTEGER NOT NULL, `totalMissedRoutines` INTEGER NOT NULL, `totalCompletedRoutine` INTEGER NOT NULL, PRIMARY KEY(`routineId`))",
+        "fields": [
+          {
+            "fieldPath": "routineId",
+            "columnName": "routineId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "timeCreated",
+            "columnName": "timeCreated",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "routineTitle",
+            "columnName": "routineTitle",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "routineDescription",
+            "columnName": "routineDescription",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "routineFrequency",
+            "columnName": "routineFrequency",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "routineState",
+            "columnName": "routineState",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalMissedRoutines",
+            "columnName": "totalMissedRoutines",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "totalCompletedRoutine",
+            "columnName": "totalCompletedRoutine",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "routineId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '131cc5a356723d68066e05eeb8865e6e')"
+    ]
+  }
+}

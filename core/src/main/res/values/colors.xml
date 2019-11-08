@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1A78EA</color>
+    <color name="colorPrimaryDark">#034BA3</color>
+    <color name="colorAccent">#B466E4</color>
+    <color name="colorSecondary">#034BA3</color>
+    <color name="colorOnSecondary">#FFF</color>
+    <color name="colorOnSurface">#FFF</color>
+    <color name="colorSurface">#1A78EA</color>
+    <color name="completed_green">#37B93D</color>
+    <color name="missed_red">#F02F36</color>
+</resources>

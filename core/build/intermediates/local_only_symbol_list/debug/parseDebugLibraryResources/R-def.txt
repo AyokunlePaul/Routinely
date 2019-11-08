@@ -1,0 +1,16 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorOnSecondary
+color colorOnSurface
+color colorPrimary
+color colorPrimaryDark
+color colorSecondary
+color colorSurface
+color completed_green
+color missed_red
+dimen routinely_guideline
+dimen routinely_guideline_small
+layout layout_dropdown_item
+style RoutinelyApplicationTheme
+style RoutinelyApplicationTheme.NoActionBar

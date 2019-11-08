@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Routinely</string>
+    <string name="routine_name">Routine Name</string>
+    <string name="routine_description">Routine Description</string>
+    <string name="routine_frequency">Frequency</string>
+    <string name="new_routine">New Routine</string>
+    <string name="create_routine">Create Routine</string>
+    <string name="select_time">Select Time</string>
+    <string name="next_up">Next Up</string>
+</resources>

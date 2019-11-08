@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#B466E4</color>
+    <color name="colorOnSecondary">#FFF</color>
+    <color name="colorOnSurface">#FFF</color>
+    <color name="colorPrimary">#1A78EA</color>
+    <color name="colorPrimaryDark">#034BA3</color>
+    <color name="colorSecondary">#034BA3</color>
+    <color name="colorSurface">#1A78EA</color>
+    <color name="completed_green">#37B93D</color>
+    <color name="missed_red">#F02F36</color>
+    <dimen name="routinely_guideline">32dp</dimen>
+    <dimen name="routinely_guideline_small">16dp</dimen>
+    <style name="RoutinelyApplicationTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSurface">@color/colorSurface</item>
+    </style>
+    <style name="RoutinelyApplicationTheme.NoActionBar" parent="RoutinelyApplicationTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
